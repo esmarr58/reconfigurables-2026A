@@ -1,0 +1,7 @@
+# Simulación
+*.vcd
+sim_out
+
+# Temporales
+*.swp
+*~
