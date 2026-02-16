@@ -1,15 +1,15 @@
-// full_adder.sv
-// Sumador completo de 1 bit
+// full_adder.v
+// Sumador completo de 1 bit (Verilog)
 
 module full_adder(
-    input  logic A,
-    input  logic B,
-    input  logic Cin,
-    output logic Sum,
-    output logic Cout
+    input  A,
+    input  B,
+    input  Cin,
+    output Sum,
+    output Cout
 );
 
-    logic axb;
+    wire axb;
 
     assign axb  = A ^ B;
     assign Sum  = axb ^ Cin;
